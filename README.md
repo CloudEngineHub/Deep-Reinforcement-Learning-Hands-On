@@ -84,6 +84,17 @@ version of code updated for the latest stable PyTorch 0.4.1
 * [Chapter 18: AlphaGo Zero](Chapter18)
 
 
+## Errata
+  <ul>
+    <li>
+      <strong> Page 124 (Paragraph 1, line 1): </strong>
+     <p>For the FrozenLake environment, both observation and action spaces are of the <strong>Box</strong> class</p>
+     <p><em>should be</em></p>
+     <p>For the FrozenLake environment, both observation and action spaces are of the <strong>Discrete</strong> class</p>
+    </li>
+  </ul>
+
+
 # Deep Reinforcement Learning Hands-On
 This is the code repository for [Deep Reinforcement Learning Hands-On](https://www.packtpub.com/big-data-and-business-intelligence/deep-reinforcement-learning-hands?utm_source=github&utm_medium=repository&utm_campaign=9781788834247), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
